@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&display=swap');
+*{
+    font-family: 'Noto Sans TC', sans-serif;
+    color:#454545;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .1);
+}
+.header .container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    font-weight: 700;
+    font-size: 20px;
+}
+.name span{
+    font-weight: 300;
+    font-size: 16px;
+}
+.menu{
+    font-weight: 300;
+}
+.menu a{
+    margin: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover{
+    background: #f4f4f4;
+    border-radius: 8px;
+    transition: .5s;
+}
+.briefIntro{
+    margin-left: auto;
+    margin-right: auto;
+}
+.briefIntro .container{
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 120px;
+    justify-content: center;
+    align-items: center;
+}
+.briefIntro .txt{
+    width: 250px;
+}
+.briefIntro .txt p{
+    /* font-weight: 300; */
+}
+.photo{
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+.decoLine{
+    width: 1.3px;
+    height: 50px;
+    background: #454545;
+    margin-left: auto;
+    margin-right: auto;
+}
+.circle{
+    width: 5px;
+    height: 5px;
+    background: #454545;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile h3{
+    text-align: center;
+    margin-top: 32px;
+}
+.label{
+    text-align: center;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 64px;
+}
+.lab{
+    padding: 15px 30px;
+    margin: 15px;
+    border: #454545 1px solid;
+    width: 300px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px rgba(69, 69, 69, .8);
+}
+.label1{
+    transition: .7s;
+    transform: translateX(-50px);
+}
+.label1:hover{
+    transform: translate(-55px, -5px);
+    cursor: pointer;
+}
+.label2{
+    transition: .7s;
+}
+.label2:hover{
+    transform: translate(-5px,-5px);
+    cursor: pointer;
+}
+.label3{
+    transition: .7s;
+    transform: translateX(50px);
+}
+.label3:hover{
+    transform: translate(45px, -5px);
+    cursor: pointer;
+}
+.profile .container{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    max-width: 930px;
+    display: flex;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.card{
+    border-radius: 10px;
+    border: #454545 1px solid;
+    transition: .5s;
+    text-align: center;
+    width: 430px;
+    margin: 15px;
+    margin-top: 80px;
+    box-shadow: 10px 10px rgba(69, 69, 69, .8);
+}
+.bgCircle{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+    border: #454545 1px solid;
+    margin-top: -75px;
+    transform: translateX(141px);
+    background: #fff;
+}
+.card img{
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin-top: -90px;
+}
+.card h3{
+    font-weight: 900;
+    font-size: 40px;
+    margin: 10px;
+    margin-top: -10px;
+}
+.card:nth-child(1){
+    height: 300px;
+}.card:nth-child(1):hover{
+    transform: translate(-5px,-5px);
+    cursor: pointer;
+}
+.card:nth-child(2){
+    transform: translateY(150px);
+}
+.card:nth-child(2):hover{
+    transform: translate(-5px,145px);
+    cursor: pointer;
+}
+.card:nth-child(3){
+    transform: translateY(-120px);
+}
+.card:nth-child(3):hover{
+    transform: translate(-5px,-125px);
+    cursor: pointer;
+}
+.card:nth-child(4){
+    transform: translateY(150px);
+}
+.card:nth-child(4):hover{
+    transform: translate(-5px,145px);
+    cursor: pointer;
+}
+.education h3{
+    margin-top: -10px;
+}
+.txt p{
+    text-align: left;
+}
+.txt p::before{
+    content: '・';
+    width: 10px;
+    height: 10px;
+    color: #454545;
+}
+.txtContent{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+}
+.link{
+    margin-top: 32px;
+}
+.link a{
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 300;
+    padding: 10px 20px;
+}
+.link a:hover{
+    background: #f4f4f4;
+    border-radius: 8px;
+    transition: .5s;
+}
+.footer .container{
+    text-align: center;
+    border-top: .5px solid #454545;
+}
+.footer .container h2{
+    margin-top: 32px;
+}
+.mailIcon span{
+    margin-left: 8px;
+}
+.copyright{
+    opacity: 50%;
+    padding-top: 16px;
+    padding-bottom: 60px;
+    font-size: 14px;
+}
